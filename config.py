@@ -25,7 +25,7 @@ class Var:
     LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1003367424787"))
     MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", " -1003383557172"))
     FILE_STORE = int(getenv("FILE_STORE", "-1002741637113"))
-    ADMINS = list(map(int, getenv("ADMINS", "5636597174").split()))
+    ADMINS = list(map(int, getenv("ADMINS", "5636597174 1683225887").split()))
 
     RSS_ITEMS = getenv("RSS_ITEMS", "").split()
     SEND_SCHEDULE = getenv("SEND_SCHEDULE", "True").lower() == "true"
