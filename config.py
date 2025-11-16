@@ -11,7 +11,7 @@ class Var:
     API_ID = getenv("API_ID", "25920083")
     API_HASH = getenv("API_HASH", "b36177dd5dde3fd0cdbaf1b796d525b8")
     BOT_TOKEN = getenv("BOT_TOKEN")
-    DB_URI = getenv("DB_URI", "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/mybotdb?retryWrites=true&w=majority&appName="SukunaXebot")
+    DB_URI = getenv("DB_URI", "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/mybotdb?retryWrites=true&w=majority&appName=SukunaXebot")
     DB_NAME = getenv("DB_NAME", "SukunaXe_bot")
     BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/Kitsune_Xe")
     FSUB_LINK_EXPIRY = int(getenv("FSUB_LINK_EXPIRY", "120"))
